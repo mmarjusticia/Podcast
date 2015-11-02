@@ -1,0 +1,481 @@
+* {
+vertical-align: baseline;
+font-weight: inherit;
+font-family: inherit;
+font-style: inherit;
+font-size: 100%;
+border: 0 none;
+outline: 0;
+padding: 0;
+margin: 0;
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fuentes/raleway-regular-webfont.eot');
+    src: url('../fuentes/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fuentes/raleway-regular-webfont.woff') format('woff'),
+         url('../fuentes/raleway-regular-webfont.ttf') format('truetype'),
+         url('../fuentes/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#contenedora{
+                width: 1920px;
+                height: 1080px;
+                background-image: url(podcast.jpg);}
+
+#usuario{       position: absolute;
+                top:400px;
+                left: 400px;
+                
+                
+              }
+
+#usuario span{ font-family: ralewayregular;
+                font-size: 1.1em; 
+                font-weight: bolder;
+                color:white;
+                margin-right: 15px;
+               }
+
+#contrasena{    position: absolute;
+                top:440px;
+                left: 400px;
+                
+                
+              }
+
+#contrasena span{ font-family: ralewayregular;
+                font-size: 1.1em; 
+                font-weight: bolder;
+                color:white;}
+
+#enviar{        position: absolute;
+                top:500px;
+                left: 584px;}
+
+#send{width: 100px;
+        height: 30px;
+        line-height: 30px;
+        font-family: ralewayregular;
+        color:firebrick;
+        font-weight: bolder;
+        font-size: 1.3em;
+        }
+        
+        
+#fondo{weight:1920x;
+       height: 1080px;
+        background-image:url(podcast3.jpg);}
+#limpia{width: 1920px;
+        height: 200px;}
+
+#caja{  weidth:600px;
+        height: 420px;
+        margin-left: 100px;
+        margin-top: 100px;}
+
+#subirArchivo{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1.2em;
+                color:white;}
+#listarArchivos{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1.2em;
+                color:white;}
+#listarAgrupadas{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1.2em;
+                color:white;}
+
+#listarUsuarios{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1.2em;
+                color:white;}
+#borrarCanciones{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1.2em;
+                color:white;
+               }
+
+#caja a{  text-decoration: none;
+                list-style-type: none;}
+#fondo h1{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1.5em;
+                color:pink;
+                padding-left: 20px;
+                padding-top: 20px;}
+
+#contenedorSubir{width:900px;
+    height: 600px;
+    background-color: black;
+    margin:0 auto;}
+
+#arribaSubir{width: 900px;
+            height: 300px;
+            background-image: url(cabeceraSubir.jpg);}
+
+#categoriaSubir{width:100px;
+                height:50px;
+                float:left;
+                margin-left: 100px;
+                }
+   
+#categoriaSubir span{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1em;
+                color:#084979;
+                }
+#privacidadSubir span{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1em;
+                color:#084979}
+
+#privacidadSubir{width:100px;
+                height:50px;
+                float:left;
+                margin-left: 30px;
+                }
+#seleccionarSubir span{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1em;
+                color:#084979;
+                }                
+
+#seleccionarSubir{width:100px;
+                height:50px;
+                float:left;
+                margin-left: 50px;
+                color:white;
+                }
+
+#u{            margin-top: 130px;
+               margin-left: 600px;
+}
+#up{width: 100px;}
+#cuadro{width:750px;
+        height: 160px;
+        border: 2px solid;
+        border-color: #084979;
+        background-color:#222323;
+        padding-top: 15px;
+        margin-left: 70px;
+       }
+ #fondoSubir{background-color: #222323;
+            height: 400px;}
+ #espacio{width: 900px;
+           height: 80px;}
+ #selectP{margin-left: 0px;}
+ #selectC{margin-left: 0px;}
+
+#contenido h1{
+   position:absolute;
+   top:260px;
+   left:190px;
+   font-size: 2em;
+    
+}
+
+#pagina{
+    width:900px;
+    height: 1000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arriba{width:900px;
+        height: 300px;
+        background-image: url(podcastListar.jpg);}
+            
+h2{font-family:ralewayregular;
+            color:#084979;
+            font-size: 1.2em;
+            font-weight: bolder;
+            text-align: center;
+            padding-bottom: 10px;
+            padding-top: 20px;}
+#pagina a{  text-decoration: none;
+                list-style-type: none;
+            padding-left: 150px;}
+#pagina li{padding-left: 200px;
+            color:white;}
+#pagina audio{padding-left: 200px;}
+
+#paginaUsuarios{
+    width:900px;
+    height: 1000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaUsuarios{width:900px;
+        height: 300px;
+        background-image: url(podcastUsuarios.jpg);}
+#paginaUsuarios a{  text-decoration: none;
+                list-style-type: none;
+            padding-left: 150px;}
+#paginaUsuarios li{padding-left: 200px;
+            color:white;}
+#paginaUsuarios audio{padding-left: 200px;}
+#paginaUsuarios h3{         font-family:ralewayregular;
+            color:#084979;
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding-left: 80px;
+            padding-bottom: 10px;
+            padding-top: 20px;}
+#paginaBorrar{
+    width:900px;
+    height: 1000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaBorrar{width:900px;
+        height: 300px;
+        background-image: url(podcastBorrar.jpg);}
+#paginaBorrar a{  text-decoration: none;
+                list-style-type: none;
+            padding-left: 150px;}
+#paginaBorrar li{padding-left: 200px;
+            color:white;}
+#paginaBorrar audio{padding-left: 200px;}
+#paginaBorrar h2{     
+            text-align: left;
+            font-family:ralewayregular;
+            color:#084979;
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding-left: 80px;
+            padding-bottom: 10px;
+            padding-top: 20px;}
+#paginaUser{
+    width:900px;
+    height: 1000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaUser{width:900px;
+        height: 300px;
+        background-image: url(podcastUser.jpg);}
+
+#paginaEntrar{
+    width:900px;
+    height: 1000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaEntrar{width:900px;
+        height: 300px;
+        background-image: url(podcastEntrar.jpg);}
+#paginaEntrar a{    text-decoration: none;
+                    list-style-type: none;
+                    padding-left: 50px;
+                    color:white;
+                    font-size: 1.8em;
+}
+
+#paginaAdmin{
+    width:900px;
+    height: 3000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaAdmin{width:900px;
+        height: 300px;
+        background-image: url(admin.jpg);}
+#izq{width:550px;
+    height: 1000px;
+    float:left;}
+#der{width:350px;
+    height: 1000px;
+    float:left;}
+#paginaAdmin a{  text-decoration: none;
+                list-style-type: none;
+            padding-left: 150px;}
+#paginaAdmin li{padding-left: 200px;
+            color:white;}
+#paginaAdmin audio{padding-left: 200px;}
+#paginaAdmin h3{     
+            text-align: left;
+            font-family:ralewayregular;
+            color:#084979;
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding-left: 80px;
+            padding-bottom: 10px;
+            padding-top: 20px;}
+#paginaAdmin h1{ text-align: left;
+            font-family:ralewayregular;
+            color:black;
+            font-size: 1.8em;
+            font-weight: bolder;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-top: 20px;}
+.enlaces{text-align: right;
+        margin-right: 40px;
+        color:#001020;}
+#paginaAdminBorrar{
+    width:900px;
+    height: 1000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaAdminBorrar{width:900px;
+        height: 300px;
+        background-image: url(podcastBorrar.jpg);}
+#paginaAdminBorrar a{  text-decoration: none;
+                list-style-type: none;
+            padding-left: 150px;}
+#paginaAdminBorrar li{padding-left: 200px;
+            color:white;}
+#paginaAdminBorrar audio{padding-left: 200px;}
+#paginaAdminBorrar h3{     
+            text-align: left;
+            font-family:ralewayregular;
+            color:#084979;
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding-left: 80px;
+            padding-bottom: 10px;
+            padding-top: 20px;}
+.volver{color:white;
+        padding-top:50px;
+        padding-left: 700px;}
+#paginaError{
+    width:900px;
+    height: 1000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaError{width:900px;
+        height: 300px;
+        background-image: url(admin.jpg);}
+
+#paginaError h1{color:white;
+                padding-top: 100px;
+                font-size:1.5em;
+                font-weight: bolder;
+                text-align: center;}
+
+#paginaCampos{
+    width:900px;
+    height: 1000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaCampos{width:900px;
+        height: 300px;
+        background-image: url(podcastcampos.jpg);}
+#relleno{width:900px;
+        height: 40px;}
+            
+#paginaCampos span{font-family:ralewayregular;
+            color:#084979;
+            font-size: 1.2em;
+            font-weight: bolder;
+           padding-left: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-top: 20px;
+            }
+
+#lista li{padding-left: 200px;
+            color:white;
+            list-style-type: none;}
+#ListarPorCategoria{padding-left: 100px;
+                    padding-bottom: 40px;
+                    padding-top: 30px;
+                    width: 100px;
+                    float: left;
+}
+#ListarPorprivacidad{padding-left: 100px;
+                      padding-bottom: 40px;
+                      width: 100px;
+                    float: left;
+                    padding-top: 30px;
+}
+#lista{padding-bottom: 20px;}
+#s{padding-left: 20px;
+    margin-left: 10px;}
+#ss{padding-left: 40px;
+    margin-left: 10px;}
+#botonEnviar{padding-top: 20px;padding-left: 360px;}
+#benviar{width:100px;}
+#paginaCampos h2{
+    font-family:ralewayregular;
+            color:pink;
+            font-size: 1.2em;
+            font-weight: bolder;
+           padding-left: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-top: 20px;
+            text-align: left;
+}
+#paginaMostrar{
+    width:900px;
+    height: 1000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaMostrar{width:900px;
+        height: 300px;
+        background-image: url(podcastListado.jpg);}
+#paginaMostrar a{  text-decoration: none;
+                list-style-type: none;
+            padding-left: 150px;}
+#paginaMostrar li{padding-left: 200px;
+            color:white;
+            padding-top: 50px;}
+#paginaMostrar audio{padding-left: 200px;}
+#paginaMostrar h3{     
+            text-align: left;
+            font-family:ralewayregular;
+            color:#084979;
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding-left: 80px;
+            padding-bottom: 10px;
+            padding-top: 20px;}
+#paginaAgrupadas{
+    width:900px;
+    height: 2000px;
+    background-color:#222323;
+    margin:0 auto;
+}
+#arribaAgrupadas{width:900px;
+        height: 300px;
+        background-image: url(podcastListar.jpg);}
+
+
+
+
+#paginaAgrupadas li{padding-left: 100px;
+            color:white;
+            list-style-type: none;
+            padding-bottom: 10px;
+            padding-top:10px;
+            padding-left: 300px;}
+#paginaAgrupadas h1{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1.5em;
+                color:pink;
+                padding-left: 250px;
+                padding-top: 20px;
+                padding-bottom: 30px;}
+#paginaAgrupadas span{font-family:ralewayregular;
+                font-weight: bolder;
+                font-size: 1em;
+                color:#084979;
+                padding-top: 20px;
+                padding-left: 280px;
+                padding-bottom: 20px;}
+#paginaAgrupadas audio{
+                       padding-top: 50px; 
+                        padding-left: 200px;}
+#cerrar{color:white;}
+
+#volverAtras{color:white;
+            padding-left: 600px;}
